@@ -5,7 +5,7 @@ from pathlib import Path
 basedir = Path(__file__).resolve().parent
 DATABASE = "flaskr.db"
 
-SQLALCHEMY_DATABASE_URI = f'sqlite:///{Path(basedir).joinpath(DATABASE)}'
+SQLALCHEMY_DATABASE_URI = f"sqlite:///{Path(basedir).joinpath(DATABASE)}"
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 USERNAME = "admin"
 PASSWORD = "admin"
